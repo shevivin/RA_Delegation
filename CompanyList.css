@@ -1,0 +1,226 @@
+.company-container {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  padding: 1rem;
+
+  margin: 0 auto;
+
+  max-width: 1200px;
+
+  box-sizing: border-box;
+
+}
+ 
+.company-header {
+
+  background-color: #007bff;
+
+  color: white;
+
+  padding: 1rem;
+
+  font-weight: bold;
+
+  font-size: 1.2rem;
+
+  text-align: center;
+
+  border-radius: 8px;
+
+  margin-bottom: 1rem;
+
+}
+ 
+.company-content {
+
+  background-color: #f8f9fa;
+
+  padding: 1.5rem;
+
+  border-radius: 8px;
+
+}
+ 
+.status-message {
+
+  margin-top: 1rem;
+
+  font-size: 1rem;
+
+}
+ 
+.status-message.error {
+
+  color: red;
+
+}
+ 
+.company-list {
+
+  margin-top: 1.5rem;
+
+  border-right: 5px solid red;
+
+  border-radius: 0 8px 8px 0;
+
+  background-color: white;
+
+  overflow: hidden;
+
+}
+ 
+.company-card {
+
+  padding: 1rem 0;
+
+  border-bottom: 1px solid #ccc;
+
+}
+
+.company-index {
+  font-weight: bold;
+  color: black;
+  margin-left: 0.5rem;
+}
+ 
+.company-header-row {
+
+  margin: 2%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 1rem;
+
+  flex-wrap: wrap;
+
+}
+ 
+.company-info {
+
+  flex-direction: column;
+
+  text-align: right;
+
+  align-items: flex-end;
+
+  flex: 1;
+
+}
+ 
+.company-name-row {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: flex-end; /* מימין לשמאל */
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+}
+ 
+.company-name {
+  display: inline-block;
+  font-weight: bold;
+  color: #000;
+}
+ 
+.company-index {
+  display: inline-block;
+  color: #000;
+}
+ 
+.company-number {
+  color: #7d7c7c;
+  font-size: 1.1rem;
+}
+ 
+.company-date {
+
+  font-weight: normal;
+
+  font-size: 0.85rem;
+
+  color: #888;
+
+  margin-top: 0.25rem;
+
+}
+ 
+.button-wrapper {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-start;
+
+}
+ 
+.primary-button {
+
+  background-color: #007bff;
+
+  color: white;
+
+  padding: 0.75rem 1rem;
+
+  border: none;
+
+  border-radius: 5px;
+
+  font-size: 1rem;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease;
+
+}
+ 
+.primary-button:hover {
+
+  background-color: #0056b3;
+
+}
+ 
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+
+  .company-header-row {
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+  }
+ 
+  .company-info {
+
+    align-items: flex-start;
+
+    text-align: right;
+
+  }
+ 
+  .button-wrapper {
+
+    justify-content: flex-start;
+
+    margin-top: 0.5rem;
+
+  }
+ 
+    .primary-button {
+
+    width: 100%;
+
+  }
+
+}
+
+ 
